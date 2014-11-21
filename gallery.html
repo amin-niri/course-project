@@ -71,16 +71,22 @@
 	}
 	
 	.container { 
-		position: fixed;
+		float: left;
 		left: 0;
 		height: 100px;
 		width: 100px;
 		margin: 10px;
-		}
+	}
 		
 	.container img{
 		width: 100%;
 		height: auto;
+	}
+	
+	.sidebarleft{
+		position: fixed;
+		top: 20px;
+		left: 0px;
 	}	
 	</style>
 
@@ -111,7 +117,12 @@
 </head>
 
 <body>
+		<div class="sidebarleft"><a href="#" class="scrollup"> <img src="arrow-up-circle.png"/> </a> </div>
+		
 		<div class="container"><img src="oculus.jpg"/></div>
+		<div class="container"><img src="driverlesscar.jpg"/></div>
+		<div class="container"><img src="google-driverless-car.jpg"/></div>
+		<div class="container"><img src="iwatch.jpg"/></div>
 		
 </body>
 </html>
